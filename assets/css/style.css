@@ -785,6 +785,12 @@ main {
   margin-left: 45px;
 }
 
+
+.timeline-second-list {
+  font-size: var(--fs-7);
+  margin-left: 45px;
+}
+
 .timeline-item { position: relative; }
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
@@ -793,6 +799,14 @@ main {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
+}
+
+.timeline-item-subtitle {
+  font-size: var(--fs-5);
+  color: var(--light-gray);
+  line-height: 1.3;
+  margin-bottom: 7px;
+  font-style: italic;
 }
 
 .timeline-list span {
@@ -1490,12 +1504,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-list { margin-left: 65px; }
 
+  .timeline-second-list { margin-left: 40px; margin-top: 30px}
+
   .timeline-item:not(:last-child)::before { left: -40px; }
 
   .timeline-item::after {
     height: 8px;
     width: 8px;
     left: -43px;
+  }
+
+  .timeline-item::before {
+    margin-top: 8px;
   }
 
   .skills-item:not(:last-child) { margin-bottom: 25px; }
