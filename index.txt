@@ -2,40 +2,37 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Trilok Bhattacharya
+Trilok Bhattacharya
+Engineer
 
 Show Contacts
 
 Email
-richard@example.com
+binary.triii@gmail.com
 
 Phone
-+1 (213) 352-2795
++44 (788) 484-3987
 
 Birthday
-June 23, 1982
+March 21, 1999
 
 Location
-Sacramento, California, USA
+Manchester, UK
 
 # navbar
 
 About
 Resume
 Portfolio
-Blog
 Contact
 
 # about
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
-
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
-
+I'm a Computer Science postgraduate student at the University of Manchester, researching the effect of snapshot flattening operation of long QCoW2 snapshot chains on the guest VM performance of QEMU.
+I have prior experience of code development and testing in the industry, and I _will_ break your system (and then fix it :))
 
 ## service
 
