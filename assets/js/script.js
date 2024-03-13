@@ -149,6 +149,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
+
+        if (pages[i].dataset.page === "portfolio") {
+          const filterItems = document.querySelectorAll("[data-filter-item]");
+          for (let i = 0; i < filterItems.length; i++) {
+              filterItems[i].classList.add("active");  
+          }
+        }
       } else {
         pages[i].classList.remove("active");
         navigationLinks[i].classList.remove("active");
